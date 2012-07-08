@@ -20,7 +20,7 @@ handling.
     if __name__ == "__main__":
         printer()
 
-Run this program at the command line or with a process monitor such as [Circus](http://circus.io). Then, in your program:
+Run this worker at the command line or with a process monitor such as [Circus](http://circus.io). Then, in your main program:
 
     from hotqueue import HotQueue
 
