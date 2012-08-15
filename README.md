@@ -27,6 +27,10 @@ Run this worker at the command line or with a process monitor such as [Circus](h
     queue = HotQueue('printer')
     queue.put("Hello from HotWorker")
 
+#### 0.2.0
+
+* Add a `startup` function to wait for a Redis connection
+
 #### 0.1.0
 
 * Initial release.
